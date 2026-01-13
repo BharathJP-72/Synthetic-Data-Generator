@@ -1,6 +1,6 @@
 
 
-```markdown
+```
 # 🧬 Synthetic Data Generator for ML Development – Web Application
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
