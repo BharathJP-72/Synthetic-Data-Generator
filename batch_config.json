@@ -1,0 +1,15 @@
+{
+  "output_directory": "batch_output",
+  "requests": [
+    {
+      "prompt": "Customer data with names, emails, ages 18-80",
+      "num_rows": 100,
+      "output_format": "csv"
+    },
+    {
+      "prompt": "Product data with names, prices 10-500, categories",
+      "num_rows": 50,
+      "output_format": "json"
+    }
+  ]
+}

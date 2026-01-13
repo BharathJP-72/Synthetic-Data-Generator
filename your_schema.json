@@ -1,0 +1,7 @@
+{
+  "name": {"type": "string", "mimesis": "person.full_name"},
+  "email": {"type": "string", "mimesis": "person.email"},
+  "age": {"type": "integer", "mimesis": "person.age", "constraints": {"min": 18, "max": 65}},
+  "purchase_amount": {"type": "float", "mimesis": "finance.price", "constraints": {"min": 10, "max": 500}},
+  "city": {"type": "string", "mimesis": "address.city"}
+}
